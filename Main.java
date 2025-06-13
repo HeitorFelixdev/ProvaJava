@@ -9,14 +9,13 @@ public class Main {
     //Primeira QUESTAO
 
  public static int cadastrarCategoria (Categoria[] vetor, int qtd) {
-    boolean continuar = true;
     if ( qtd >= vetor.length) {
         System.out.println ("Limite atingido. Nao pode criar mais categorias!");
         return qtd;
 
     }
     vetor[qtd] = new Categoria ();
-    while (continuar && qtd < vetor.length) {
+    while (qtd < vetor.length) {
         System.out.println ("Digite o codigo da Categoria: ");
         vetor[qtd].codigo = sc.nextInt();
         sc.nextLine();
@@ -32,7 +31,7 @@ public class Main {
     //Segunda QUESTAO
 
     public static void imprimirCategoria (Categoria[] vetor, int qtd) {
-        for ( int i = 0; i < qtd; i++) {
+        for ( int i = 0; i < qtd; i+=1) {
         System.out.println("(%d, %s)\n", vetor[i].codigo, 
                                         vetor[i].nome);
 
