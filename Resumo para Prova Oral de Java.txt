@@ -1,0 +1,62 @@
+Resumo para Prova Oral de Java
+Com base nas provas e atividades que você compartilhou, aqui está um resumo dos principais tópicos que você precisa revisar para sua prova oral:
+
+Fundamentos Básicos
+Declaração de classes e atributos: Como criar classes e definir seus campos (ex: Categoria, Produto, Pessoa)
+
+Constantes: Uso de public static final (constantes como TAM = 100)
+
+Tipos de dados primitivos: int, double, String, etc.
+
+Manipulação de Vetores/Arrays
+Criação e manipulação: Categoria[] v, Produto[] vp, Pessoa[] v
+
+Capacidade vs quantidade: Diferença entre tamanho do vetor (TAM) e quantidade atual de elementos (qtd)
+
+Inserção no final: Como adicionar elementos mantendo controle da quantidade
+
+Algoritmos de Busca
+Busca sequencial: Para verificar duplicatas (como nomes ou códigos repetidos)
+
+Busca binária: Implementação e requisitos (vetor precisa estar ordenado)
+
+Versão para Produto por descrição
+
+Versão para vetores de inteiros
+
+Algoritmos de Ordenação
+Selection Sort: Para ordenar Produto por descrição
+
+Bubble Sort: Para ordenação decrescente de inteiros
+
+Insertion Sort: Para ordenar Pessoa por nome
+
+Operações com Objetos
+Cadastro: Validação de capacidade e duplicatas antes de inserir
+
+Impressão: Formatação de saída (ex: preço como R$ 999.99)
+
+Cálculos: Como IMC (peso/altura²) e conversão de valores (preço/100)
+
+Tópicos Específicos para Funções
+Validações:
+
+Verificar se há espaço no vetor antes de cadastrar
+
+Garantir unicidade (códigos, nomes)
+
+Formatação de Saída:
+
+Números decimais (preços, IMC)
+
+Listagens formatadas (com chaves, vírgulas)
+
+Critérios de Busca:
+
+Combinar condições (mais velho com magreza - IMC < 18.5)
+
+Encontrar menor número par
+
+Contagem de Elementos:
+
+Implementar tabela de frequência (valores duplicados)

@@ -1,0 +1,11 @@
+Bubble Sort
+O Bubble Sort é um algoritmo simples que ordena uma lista comparando pares de elementos adjacentes e trocando-os se estiverem na ordem errada. Esse processo se repete várias vezes até que a lista esteja completamente ordenada. A cada passagem, o maior elemento "flutua" para o final da lista (como uma bolha), reduzindo a parte não ordenada.
+
+Selection Sort
+O Selection Sort divide a lista em duas partes: uma parte ordenada (no início) e uma não ordenada (o restante). A cada passo, o algoritmo busca o menor elemento na parte não ordenada e o coloca na posição correta da parte ordenada. Esse processo continua até que toda a lista esteja ordenada.
+
+Insertion Sort
+O Insertion Sort também divide a lista em uma parte ordenada e outra não ordenada. Porém, ele pega um elemento da parte não ordenada e o insere na posição correta dentro da parte ordenada, deslocando os elementos maiores para a direita. É semelhante à forma como organizamos cartas em um baralho.
+
+Busca Binária
+A Busca Binária é um algoritmo eficiente para encontrar um elemento em uma lista já ordenada. Ela funciona dividindo repetidamente a lista ao meio e comparando o elemento do meio com o valor buscado. Se o elemento do meio for maior, a busca continua na metade inferior; se for menor, na metade superior. Isso reduz drasticamente o número de comparações necessárias.
